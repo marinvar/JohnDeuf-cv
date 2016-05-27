@@ -1,0 +1,80 @@
+h1, .centeralign
+{
+	text-align: center;
+}
+
+body
+{
+	font-family: "bodonitownregular", Arial, serif;
+	background-image: url("images/floral-background-mini.jpg");
+}
+
+#main_wrapper
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#lisere
+{
+    width: 10%;
+    background-color: #373737;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-width: 10px;
+}
+
+#photo_john
+{
+    float: right;
+}
+
+#john
+{
+	border: 1px solid maroon;
+	box-shadow: 6px 6px 6px maroon;
+    width: 70px;
+    height: 70px;
+}
+
+h2
+{
+	color: maroon;
+}
+
+#informations
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#experience, #competences
+{
+    width: 40%;
+    padding: 5px;
+}
+
+#formation
+{
+    width: 20%;
+    padding: 5px;
+}
+
+@media all and (max-width: 1024px)
+{
+    #lisere
+    {
+        display: none;
+    }
+
+    #informations
+    {
+        flex-direction: column;
+    }
+
+    #experience, #competences, #formation
+    {
+        width: 95%;
+    }
+}
